@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"webpack",
-    "start":"webpack-dev-server",
-    "n":"node a.js"
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "n": "node a.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
